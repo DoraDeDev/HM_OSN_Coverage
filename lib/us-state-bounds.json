@@ -1,0 +1,620 @@
+{
+  "Alabama": {
+    "minLat": 30.247195,
+    "maxLat": 35.00118,
+    "minLon": -88.471115,
+    "maxLon": -84.889196
+  },
+  "AL": {
+    "minLat": 30.247195,
+    "maxLat": 35.00118,
+    "minLon": -88.471115,
+    "maxLon": -84.889196
+  },
+  "Alaska": {
+    "minLat": 51.61274,
+    "maxLat": 71.351633,
+    "minLon": -188.90491,
+    "maxLon": -129.986323
+  },
+  "AK": {
+    "minLat": 51.61274,
+    "maxLat": 71.351633,
+    "minLon": -188.90491,
+    "maxLon": -129.986323
+  },
+  "Arizona": {
+    "minLat": 31.331629,
+    "maxLat": 37.00574,
+    "minLon": -114.815198,
+    "maxLon": -109.042503
+  },
+  "AZ": {
+    "minLat": 31.331629,
+    "maxLat": 37.00574,
+    "minLon": -114.815198,
+    "maxLon": -109.042503
+  },
+  "Arkansas": {
+    "minLat": 33.002096,
+    "maxLat": 36.501861,
+    "minLon": -94.616242,
+    "maxLon": -89.730812
+  },
+  "AR": {
+    "minLat": 33.002096,
+    "maxLat": 36.501861,
+    "minLon": -94.616242,
+    "maxLon": -89.730812
+  },
+  "California": {
+    "minLat": 32.536556,
+    "maxLat": 42.011663,
+    "minLon": -124.410798,
+    "maxLon": -114.136058
+  },
+  "CA": {
+    "minLat": 32.536556,
+    "maxLat": 42.011663,
+    "minLon": -124.410798,
+    "maxLon": -114.136058
+  },
+  "Colorado": {
+    "minLat": 36.994786,
+    "maxLat": 41.003906,
+    "minLon": -109.058934,
+    "maxLon": -102.042974
+  },
+  "CO": {
+    "minLat": 36.994786,
+    "maxLat": 41.003906,
+    "minLon": -109.058934,
+    "maxLon": -102.042974
+  },
+  "Connecticut": {
+    "minLat": 40.987475,
+    "maxLat": 42.050002,
+    "minLon": -73.727192,
+    "maxLon": -71.799309
+  },
+  "CT": {
+    "minLat": 40.987475,
+    "maxLat": 42.050002,
+    "minLon": -73.727192,
+    "maxLon": -71.799309
+  },
+  "Delaware": {
+    "minLat": 38.451652,
+    "maxLat": 39.831841,
+    "minLon": -75.786521,
+    "maxLon": -75.047134
+  },
+  "DE": {
+    "minLat": 38.451652,
+    "maxLat": 39.831841,
+    "minLon": -75.786521,
+    "maxLon": -75.047134
+  },
+  "District of Columbia": {
+    "minLat": 38.791222,
+    "maxLat": 38.993869,
+    "minLon": -77.117418,
+    "maxLon": -76.909294
+  },
+  "DC": {
+    "minLat": 38.791222,
+    "maxLat": 38.993869,
+    "minLon": -77.117418,
+    "maxLon": -76.909294
+  },
+  "Florida": {
+    "minLat": 25.120779,
+    "maxLat": 31.003013,
+    "minLon": -87.633143,
+    "maxLon": -80.03115
+  },
+  "FL": {
+    "minLat": 25.120779,
+    "maxLat": 31.003013,
+    "minLon": -87.633143,
+    "maxLon": -80.03115
+  },
+  "Georgia": {
+    "minLat": 30.356734,
+    "maxLat": 35.00118,
+    "minLon": -85.606675,
+    "maxLon": -80.885553
+  },
+  "GA": {
+    "minLat": 30.356734,
+    "maxLat": 35.00118,
+    "minLon": -85.606675,
+    "maxLon": -80.885553
+  },
+  "Hawaii": {
+    "minLat": 18.948267,
+    "maxLat": 22.228955,
+    "minLon": -159.764448,
+    "maxLon": -154.807817
+  },
+  "HI": {
+    "minLat": 18.948267,
+    "maxLat": 22.228955,
+    "minLon": -159.764448,
+    "maxLon": -154.807817
+  },
+  "Idaho": {
+    "minLat": 41.995232,
+    "maxLat": 49.000239,
+    "minLon": -117.241483,
+    "maxLon": -111.047063
+  },
+  "ID": {
+    "minLat": 41.995232,
+    "maxLat": 49.000239,
+    "minLon": -117.241483,
+    "maxLon": -111.047063
+  },
+  "Illinois": {
+    "minLat": 36.983832,
+    "maxLat": 42.510065,
+    "minLon": -91.50534,
+    "maxLon": -87.49622
+  },
+  "IL": {
+    "minLat": 36.983832,
+    "maxLat": 42.510065,
+    "minLon": -91.50534,
+    "maxLon": -87.49622
+  },
+  "Indiana": {
+    "minLat": 37.788942,
+    "maxLat": 41.759724,
+    "minLon": -88.060345,
+    "maxLon": -84.801565
+  },
+  "IN": {
+    "minLat": 37.788942,
+    "maxLat": 41.759724,
+    "minLon": -88.060345,
+    "maxLon": -84.801565
+  },
+  "Iowa": {
+    "minLat": 40.379535,
+    "maxLat": 43.501391,
+    "minLon": -96.631756,
+    "maxLon": -90.141582
+  },
+  "IA": {
+    "minLat": 40.379535,
+    "maxLat": 43.501391,
+    "minLon": -96.631756,
+    "maxLon": -90.141582
+  },
+  "Kansas": {
+    "minLat": 36.994786,
+    "maxLat": 40.001626,
+    "minLon": -102.053927,
+    "maxLon": -94.610765
+  },
+  "KS": {
+    "minLat": 36.994786,
+    "maxLat": 40.001626,
+    "minLon": -102.053927,
+    "maxLon": -94.610765
+  },
+  "Kentucky": {
+    "minLat": 36.496384,
+    "maxLat": 39.103408,
+    "minLon": -89.418626,
+    "maxLon": -81.969987
+  },
+  "KY": {
+    "minLat": 36.496384,
+    "maxLat": 39.103408,
+    "minLon": -89.418626,
+    "maxLon": -81.969987
+  },
+  "Louisiana": {
+    "minLat": 29.009407,
+    "maxLat": 33.018527,
+    "minLon": -94.041164,
+    "maxLon": -89.002379
+  },
+  "LA": {
+    "minLat": 29.009407,
+    "maxLat": 33.018527,
+    "minLon": -94.041164,
+    "maxLon": -89.002379
+  },
+  "Maine": {
+    "minLat": 43.057759,
+    "maxLat": 47.461219,
+    "minLon": -71.08183,
+    "maxLon": -66.979601
+  },
+  "ME": {
+    "minLat": 43.057759,
+    "maxLat": 47.461219,
+    "minLon": -71.08183,
+    "maxLon": -66.979601
+  },
+  "Maryland": {
+    "minLat": 37.909435,
+    "maxLat": 39.722302,
+    "minLon": -79.488933,
+    "maxLon": -75.047134
+  },
+  "MD": {
+    "minLat": 37.909435,
+    "maxLat": 39.722302,
+    "minLon": -79.488933,
+    "maxLon": -75.047134
+  },
+  "Massachusetts": {
+    "minLat": 41.496831,
+    "maxLat": 42.887974,
+    "minLon": -73.508114,
+    "maxLon": -69.937149
+  },
+  "MA": {
+    "minLat": 41.496831,
+    "maxLat": 42.887974,
+    "minLon": -73.508114,
+    "maxLon": -69.937149
+  },
+  "Michigan": {
+    "minLat": 41.694001,
+    "maxLat": 48.173221,
+    "minLon": -90.415429,
+    "maxLon": -82.413619
+  },
+  "MI": {
+    "minLat": 41.694001,
+    "maxLat": 48.173221,
+    "minLon": -90.415429,
+    "maxLon": -82.413619
+  },
+  "Minnesota": {
+    "minLat": 43.501391,
+    "maxLat": 49.383625,
+    "minLon": -97.228743,
+    "maxLon": -89.615796
+  },
+  "MN": {
+    "minLat": 43.501391,
+    "maxLat": 49.383625,
+    "minLon": -97.228743,
+    "maxLon": -89.615796
+  },
+  "Mississippi": {
+    "minLat": 30.181472,
+    "maxLat": 34.995703,
+    "minLon": -91.636787,
+    "maxLon": -88.098683
+  },
+  "MS": {
+    "minLat": 30.181472,
+    "maxLat": 34.995703,
+    "minLon": -91.636787,
+    "maxLon": -88.098683
+  },
+  "Missouri": {
+    "minLat": 35.997983,
+    "maxLat": 40.615043,
+    "minLon": -95.7664,
+    "maxLon": -89.133825
+  },
+  "MO": {
+    "minLat": 35.997983,
+    "maxLat": 40.615043,
+    "minLon": -95.7664,
+    "maxLon": -89.133825
+  },
+  "Montana": {
+    "minLat": 44.394132,
+    "maxLat": 49.000239,
+    "minLon": -116.04751,
+    "maxLon": -104.042057
+  },
+  "MT": {
+    "minLat": 44.394132,
+    "maxLat": 49.000239,
+    "minLon": -116.04751,
+    "maxLon": -104.042057
+  },
+  "Nebraska": {
+    "minLat": 40.001626,
+    "maxLat": 43.002989,
+    "minLon": -104.053011,
+    "maxLon": -95.306337
+  },
+  "NE": {
+    "minLat": 40.001626,
+    "maxLat": 43.002989,
+    "minLon": -104.053011,
+    "maxLon": -95.306337
+  },
+  "Nevada": {
+    "minLat": 35.00118,
+    "maxLat": 42.000709,
+    "minLon": -120.001861,
+    "maxLon": -114.04295
+  },
+  "NV": {
+    "minLat": 35.00118,
+    "maxLat": 42.000709,
+    "minLon": -120.001861,
+    "maxLon": -114.04295
+  },
+  "New Hampshire": {
+    "minLat": 42.696281,
+    "maxLat": 45.303304,
+    "minLon": -72.544173,
+    "maxLon": -70.703921
+  },
+  "NH": {
+    "minLat": 42.696281,
+    "maxLat": 45.303304,
+    "minLon": -72.544173,
+    "maxLon": -70.703921
+  },
+  "New Jersey": {
+    "minLat": 38.993869,
+    "maxLat": 41.359907,
+    "minLon": -75.561967,
+    "maxLon": -73.902454
+  },
+  "NJ": {
+    "minLat": 38.993869,
+    "maxLat": 41.359907,
+    "minLon": -75.561967,
+    "maxLon": -73.902454
+  },
+  "New Mexico": {
+    "minLat": 31.331629,
+    "maxLat": 37.000263,
+    "minLon": -109.04798,
+    "maxLon": -103.001438
+  },
+  "NM": {
+    "minLat": 31.331629,
+    "maxLat": 37.000263,
+    "minLon": -109.04798,
+    "maxLon": -103.001438
+  },
+  "New York": {
+    "minLat": 40.543843,
+    "maxLat": 45.018503,
+    "minLon": -79.76278,
+    "maxLon": -72.100541
+  },
+  "NY": {
+    "minLat": 40.543843,
+    "maxLat": 45.018503,
+    "minLon": -79.76278,
+    "maxLon": -72.100541
+  },
+  "North Carolina": {
+    "minLat": 33.845545,
+    "maxLat": 36.589492,
+    "minLon": -84.319594,
+    "maxLon": -75.715321
+  },
+  "NC": {
+    "minLat": 33.845545,
+    "maxLat": 36.589492,
+    "minLon": -84.319594,
+    "maxLon": -75.715321
+  },
+  "North Dakota": {
+    "minLat": 45.933153,
+    "maxLat": 49.000239,
+    "minLon": -104.047534,
+    "maxLon": -96.560556
+  },
+  "ND": {
+    "minLat": 45.933153,
+    "maxLat": 49.000239,
+    "minLon": -104.047534,
+    "maxLon": -96.560556
+  },
+  "Ohio": {
+    "minLat": 38.424267,
+    "maxLat": 41.978802,
+    "minLon": -84.817996,
+    "maxLon": -80.518598
+  },
+  "OH": {
+    "minLat": 38.424267,
+    "maxLat": 41.978802,
+    "minLon": -84.817996,
+    "maxLon": -80.518598
+  },
+  "Oklahoma": {
+    "minLat": 33.637421,
+    "maxLat": 37.000263,
+    "minLon": -103.001438,
+    "maxLon": -94.430026
+  },
+  "OK": {
+    "minLat": 33.637421,
+    "maxLat": 37.000263,
+    "minLon": -103.001438,
+    "maxLon": -94.430026
+  },
+  "Oregon": {
+    "minLat": 41.989755,
+    "maxLat": 46.261769,
+    "minLon": -124.553198,
+    "maxLon": -116.463758
+  },
+  "OR": {
+    "minLat": 41.989755,
+    "maxLat": 46.261769,
+    "minLon": -124.553198,
+    "maxLon": -116.463758
+  },
+  "Pennsylvania": {
+    "minLat": 39.722302,
+    "maxLat": 42.269079,
+    "minLon": -80.518598,
+    "maxLon": -74.69661
+  },
+  "PA": {
+    "minLat": 39.722302,
+    "maxLat": 42.269079,
+    "minLon": -80.518598,
+    "maxLon": -74.69661
+  },
+  "Rhode Island": {
+    "minLat": 41.321569,
+    "maxLat": 42.01714,
+    "minLon": -71.859555,
+    "maxLon": -71.120168
+  },
+  "RI": {
+    "minLat": 41.321569,
+    "maxLat": 42.01714,
+    "minLon": -71.859555,
+    "maxLon": -71.120168
+  },
+  "South Carolina": {
+    "minLat": 32.032678,
+    "maxLat": 35.198349,
+    "minLon": -83.339222,
+    "maxLon": -78.541422
+  },
+  "SC": {
+    "minLat": 32.032678,
+    "maxLat": 35.198349,
+    "minLon": -83.339222,
+    "maxLon": -78.541422
+  },
+  "South Dakota": {
+    "minLat": 42.488157,
+    "maxLat": 45.944106,
+    "minLon": -104.058488,
+    "maxLon": -96.434587
+  },
+  "SD": {
+    "minLat": 42.488157,
+    "maxLat": 45.944106,
+    "minLon": -104.058488,
+    "maxLon": -96.434587
+  },
+  "Tennessee": {
+    "minLat": 34.984749,
+    "maxLat": 36.677123,
+    "minLon": -90.311367,
+    "maxLon": -81.679709
+  },
+  "TN": {
+    "minLat": 34.984749,
+    "maxLat": 36.677123,
+    "minLon": -90.311367,
+    "maxLon": -81.679709
+  },
+  "Texas": {
+    "minLat": 25.887551,
+    "maxLat": 36.501861,
+    "minLon": -106.643603,
+    "maxLon": -93.526331
+  },
+  "TX": {
+    "minLat": 25.887551,
+    "maxLat": 36.501861,
+    "minLon": -106.643603,
+    "maxLon": -93.526331
+  },
+  "Utah": {
+    "minLat": 37.000263,
+    "maxLat": 42.000709,
+    "minLon": -114.048427,
+    "maxLon": -109.042503
+  },
+  "UT": {
+    "minLat": 37.000263,
+    "maxLat": 42.000709,
+    "minLon": -114.048427,
+    "maxLon": -109.042503
+  },
+  "Vermont": {
+    "minLat": 42.729142,
+    "maxLat": 45.013027,
+    "minLon": -73.436914,
+    "maxLon": -71.4926
+  },
+  "VT": {
+    "minLat": 42.729142,
+    "maxLat": 45.013027,
+    "minLon": -73.436914,
+    "maxLon": -71.4926
+  },
+  "Virginia": {
+    "minLat": 36.5402,
+    "maxLat": 39.464886,
+    "minLon": -83.673316,
+    "maxLon": -75.244304
+  },
+  "VA": {
+    "minLat": 36.5402,
+    "maxLat": 39.464886,
+    "minLon": -83.673316,
+    "maxLon": -75.244304
+  },
+  "Washington": {
+    "minLat": 45.549767,
+    "maxLat": 49.000239,
+    "minLon": -124.706553,
+    "maxLon": -116.918344
+  },
+  "WA": {
+    "minLat": 45.549767,
+    "maxLat": 49.000239,
+    "minLon": -124.706553,
+    "maxLon": -116.918344
+  },
+  "West Virginia": {
+    "minLat": 37.20291,
+    "maxLat": 40.636951,
+    "minLon": -82.621743,
+    "maxLon": -77.719881
+  },
+  "WV": {
+    "minLat": 37.20291,
+    "maxLat": 40.636951,
+    "minLon": -82.621743,
+    "maxLon": -77.719881
+  },
+  "Wisconsin": {
+    "minLat": 42.493634,
+    "maxLat": 46.95734,
+    "minLon": -92.885529,
+    "maxLon": -87.03068
+  },
+  "WI": {
+    "minLat": 42.493634,
+    "maxLat": 46.95734,
+    "minLon": -92.885529,
+    "maxLon": -87.03068
+  },
+  "Wyoming": {
+    "minLat": 40.998429,
+    "maxLat": 45.002073,
+    "minLon": -111.05254,
+    "maxLon": -104.053011
+  },
+  "WY": {
+    "minLat": 40.998429,
+    "maxLat": 45.002073,
+    "minLon": -111.05254,
+    "maxLon": -104.053011
+  },
+  "Puerto Rico": {
+    "minLat": 17.929556,
+    "maxLat": 18.515589,
+    "minLon": -67.269879,
+    "maxLon": -65.626797
+  }
+}

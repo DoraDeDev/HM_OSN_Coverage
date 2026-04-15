@@ -1,0 +1,23 @@
+# Credentials — never commit
+.env.local
+.env.local.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Logs
+snowflake.log
+*.log
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

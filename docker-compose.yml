@@ -1,0 +1,78 @@
+# docker-compose.yml
+# Run everything with: docker-compose up -d
+# Stop with: docker-compose down
+# View logs: docker-compose logs -f
+
+version: '3.9'
+
+services:
+
+  # ── Redis ─────────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7.2-alpine
+    container_name: mls_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    command: >
+      redis-server
+      --maxmemory 2gb
+      --maxmemory-policy allkeys-lru
+      --save 60 1000
+      --appendonly yes
+      --appendfilename "mls-cache.aof"
+      --loglevel notice
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Redis Commander (Web UI to inspect cache) ─────────────────────────────
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: mls_redis_ui
+    restart: unless-stopped
+    environment:
+      REDIS_HOSTS: "local:redis:6379"
+    ports:
+      - "8081:8081"
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  # ── Next.js app ────────────────────────────────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mls_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      REDIS_URL: redis://redis:6379
+      NEXT_PUBLIC_MAPBOX_TOKEN: ${NEXT_PUBLIC_MAPBOX_TOKEN}
+      SF_ACCOUNT: ${SF_ACCOUNT}
+      SF_USER: ${SF_USER}
+      SF_PASSWORD: ${SF_PASSWORD}
+      SF_WAREHOUSE: ${SF_WAREHOUSE}
+      SF_ROLE: ${SF_ROLE}
+      SF_DATABASE: ${SF_DATABASE}
+      SF_SCHEMA: ${SF_SCHEMA}
+      CACHE_ADMIN_TOKEN: ${CACHE_ADMIN_TOKEN}
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/cache-admin?action=stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  redis_data:
+    driver: local
